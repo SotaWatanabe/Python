@@ -1,0 +1,8 @@
+#レンジ関数
+for i in range(10):
+    print(i, "hello")
+
+for _ in range(10):
+    print("hello")
+
+#_はインデックスの番号を使わないことを示唆

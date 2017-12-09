@@ -1,0 +1,7 @@
+#enumerate関数
+for i, fruit in enumerate(["apple","banana", "orange"]):
+    print(i,fruit)
+
+# 0 apple
+# 1 banana
+# 2 orange
