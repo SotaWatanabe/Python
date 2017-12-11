@@ -1,0 +1,14 @@
+#Anaconda-navigatorを起動
+https://github.com/lengstrom/fast-style-transfer
+
+#Environments → Create → Python3.5 → Open terminal
+$ conda install scipy numpy pillow
+$
+
+#tensorflowが使えるか確認
+$ python
+>>> import tensorflow
+
+$ cd fast-style-transfer-master
+
+$ python evaluate.py --checkpoint ./****.ckpt --in-path input.jpg --out-path ./output.jpg
