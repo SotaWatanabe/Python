@@ -1,0 +1,11 @@
+#ファイルの読み込み
+with open("text.txt", "w") as f:
+    f.write("Test\n")
+
+#ファイルの一行ずつの読み込み
+with open("text.txt", "r") as r:
+    while True:
+        line = f.readline()
+        print(line, end="")
+        if not line:
+            break
